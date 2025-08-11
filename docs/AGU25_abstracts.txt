@@ -1,0 +1,76 @@
+Abstract ID#: 1931639
+Weather Jiu-Jitsu: Steering Tropical Cyclones with Small Perturbations of the Jet Stream in Experiments with Deep Learning Foundation Models
+Session: A101. Toward Modications of Extreme Weather Events
+
+Text:
+Deep learning foundation models provide a powerful new framework for modeling and understanding complex geophysical phenomena. By training on extensive, diverse, and multiscale Earth system datasets, these models effectively capture high-dimensional spatiotemporal dynamics without relying explicitly on physical equations. Recent advancements have shown their exceptional capabilities in global weather forecasting and accurate tropical cyclone (TC) tracking.
+
+In this study, we investigate the application of foundation models to not only predict but actively influence the trajectories of tropical cyclones, which are among the most devastating and dynamically sensitive weather events on Earth. Our methodology applies the concept of "Weather Jiu-Jitsu," an approach that advocates using small, precisely timed, low-energy interventions to gently steer extreme weather events away from vulnerable populations and critical infrastructure.We examine historical hurricane trajectories and associated large scale mid-latitude circulation over the hurricane evolution to identify cases where there was catastrophic impact on landfall, and there was a possibility of modifying the hurricane steering winds such that the track could be controlled to avoid landfall. Using the Aurora Foundation Model we explore how nudges applied at different locations well upstream of the hurricane location could evolve to shift the steering winds so the track stays clear of landfall. Conditions under which this was potentially feasible/infeasible are identified and the prospects for practical application are discussed. 
+
+We invite collaboration to develop Weather Jiu Jitsu as a community research platform.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Abstract ID#: 1949593
+Weather Jiu-Jitsu: Toward Controlling Atmospheric Rivers with Deep Learning Foundation Models and Adaptive Perturbation
+Session: GC054. Geoengineering and Weather Modification: Bridging Scientific Uncertainties for Climate Resilience
+
+Text:
+Deep learning foundation models offer a new approach for modeling the evolution of complex geophysical systems. Trained on diverse Earth system datasets, these models can learn high-dimensional spatiotemporal dynamics without relying on explicit physical equations. They have already demonstrated strong forecasting performance in applications such as global weather prediction and tropical cyclone tracking. We explore the  application of foundation models to forecast and modify the tracks of Atmospheric Rivers (ARs), which are among the most impactful and dynamically sensitive weather systems in the mid-latitudes.
+
+Our Weather Jiu-Jitsu framework leverages the intrinsic chaos of atmospheric dynamics to subtly redirect or dissipate extreme weather trajectories through precisely timed, low-energy perturbations. By analyzing the sensitivity of foundation models to small perturbations in initial conditions, we identify optimal spatio-temporal windows for control. A systematic analysis of the perturbation of the environmental conditions associated with multiple cases with the evolution of atmospheric rivers was performed using the Aurora deep learning foundation model that permits a rapid computation of the propagation of the effects of perturbations. Conditions that permit a rapid amplification of small perturbations are identified as potential targets for control mechanisms to dissipate or redirect the trajectory of the atmospheric rivers to avert catastrophic consequences at landfall. Practical implications are discussed. 
+
+We invite collaboration to develop Weather Jiu Jitsu as a community research platform. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Abstract ID#: 1931056
+Weather Jiu-Jitsu: Climate Adaptation for the 21st Century
+Session: GC054. Geoengineering and Weather Modification: Bridging Scientific Uncertainties for Climate Resilience
+
+Text:
+Extreme climate events, e.g., droughts, floods, heat waves, and freezes, are becoming more frequent and intense with severe global socio-economic impacts. Growing populations and economic activity leads to increased exposure to these events. Scaling existing physical, financial, and social infrastructure to provide resilience against these extreme events is daunting, as one ponders projected climate changes. Climate extremes pose a challenge even if decarbonization and geoengineering are able to regulate Earth's radiation balance.
+
+We argue that there is an urgent need to explore a novel adaptive strategy that we call "Weather Jiu-Jitsu," which leverages the intrinsic chaotic dynamics of weather systems to subtly redirect or dissipate their destructive trajectories through precisely timed, small-energy interventions. By leveraging insights from adaptive chaos control, combined with improved observations, prediction and low-energy weather system interventions, humanity could develop a novel nature assisted global infrastructure to limit the impact of climate extremes in the 21st century. We invite discussion and collaboration to leverage the latest prediction science, including data science and deep learning, materials, science and technology for the mechanisms delivering nudges, and meteorology for understanding the chaotic dynamics that could be leveraged. 
+
+We invite collaboration to develop Weather Jiu Jitsu as a community research platform.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Weather Jiu Jitsu: A 21st century paradigm to leverage nature's power to mitigate some Compound, Concurrent, and Cascading Weather Hazards in a Changing Climate
+
+It is now well established that specic atmospheric circulation patterns or weatherregimes can lead to multiple, nearly concurrent, clustered extreme weather events
+of different types, e.g.,floods, droughts, tropical cyclone landfalls, heat waves, freezes, at continental or global scales. I will review some of this evidence, and the
+disproportionate impact these spatio-temporally hyperclustered events have on losses due to hazards; losses that overwhelm locally/regionally focused traditional
+structural and financial measures for hazard mitigation, contributing to a cascade of socio-economic impacts. Recurrent events due to a persistent weather regime,
+can for instance lead to long duration flooding, e.g., over a 100 days continuously on the Mississippi River twice in the last 2 decades, with lasting disruption and
+restructuring of supply chains.
+
+As climate change projections portend a general increase in the frequency and severity of weather extremes, the importance of a global strategy to address this
+class of challenge increases. The challenge posed by such compound events at continental to global scales remains even if decarbonization of the global economy
+is successful. The limits of predictability of the atmospheric circulation have also been established theoretically and demonstrated practically in the lack of skill of
+long range weather prediction, despite significant efforts. The nonlinear dynamics of the weather/climate system induces intransitivity and chaos, that translate into
+weather regimes and varying predictability depending on the state of the system and the associated weather regime transition dynamics.
+
+Weather Jiu Jitsu proposes to leverage this understanding of the system to control the weather by appropriately timed and located nudges that use the power of the dynamics to amplify and control the system away from "undesirable" weather regimes that harbor the compound extremes. I will summarize the potential that
+our group has demonstrated for such control using idealized models, and deep learning emulators of the dynamics. I will indicate possible physical mechanisms that can be used for nudging, and offer an invitation to join us in developing this new research area for the common good.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Weather Jiu Jitsu: Adaptive Chaos Control with Deep Learning of Atmospheric Dynamics to leverage the power of the atmospheric circulation with nudges to move or defuse storms and avert catastrophic flooding
+
+Atmospheric Rivers, Tropical and Extratropical Cyclones, Noreasters, Large Scale Frontal Storms that interact with Mesoscale Convective Complexes are examples
+of weather extremes that can lead to catastrophic flooding. Our ability to predict the trajectory and impacts of these systems has improved dramatically over the
+last few decades, thanks to better models, but in large part to data availability and assimilation. Yet, significant challenges remain, as the space and time speci
+city of the intensity and duration of the associated storm precipitation is limited, especially at longer lead times. The recent flooding in Texas raised questions as to whether there was adequate warning of flooding, and also whether people would have responded if the warning had been effectively communicated much earlier giving them enough time to organize and evacuate. This question arises nearlyevery time such an event happens, unless there is a government ordered evacuation.
+
+The inability to predict the details of the storms at longer lead times, connects to the well demonstrated chaotic nature of atmospheric circulation dynamics. The
+sensitivity to initial conditions, leads to the amplification of small perturbations, or uncertainty in initial conditions, which renders low predictability to long range
+forecasts that are not updated with continuous data assimilation. The Lorenz butterfly effect is the iconic representation of this paradigm.
+
+Weather Jiu Jitsu is a paradigm we have introduced to represent the opportunity to harness the power of nature to change the trajectory of the atmospheric circulation
+via appropriately timed and located perturbations or nudges such that catastrophic ooding events /storms can be defused by spreading storms over larger areas, and/or diverted so that the impacts are minimized. If successful, Weather Jiu Jitsu would provide humanity with a new tool beyond dams and levees, which have been demonstrated to have negative socio-environmental consequences, and insurance mechanisms that are exercised by a fraction of the population and are under stress
+as the climate changes.
+
+We provide examples of Weather Jiu Jitsu using idealized models and deep learning emulators of weather dynamics, and discuss the opportunity to collaborate
+on building this new science with modern computation tools and science for delivering the nudges.
+
+
+
+
