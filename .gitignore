@@ -48,3 +48,6 @@ aurora-mers-forecasting/data/raw/
 aurora-mers-forecasting/output/
 aurora-mers-forecasting/data/raw/
 *.nc
+
+aurora-mers-forecasting/output/
+aurora-mers-forecasting/data/raw/test/
