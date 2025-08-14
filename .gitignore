@@ -34,3 +34,8 @@ checkpoints/
 mlflow_tmp/
 aurora_mlflow_pyfunc/
 mlruns/
+
+# large data & outputs
+aurora-mers-forecasting/output/
+aurora-mers-forecasting/data/raw/
+*.nc
