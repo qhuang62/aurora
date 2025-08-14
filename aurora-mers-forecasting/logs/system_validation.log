@@ -1,0 +1,63 @@
+2025-08-13 15:05:09,982 - INFO - Starting comprehensive system validation...
+2025-08-13 15:05:09,982 - INFO - 
+==================================================
+2025-08-13 15:05:09,982 - INFO - Running test: Environment Setup
+2025-08-13 15:05:09,982 - INFO - ==================================================
+2025-08-13 15:05:09,982 - INFO - Testing environment setup...
+2025-08-13 15:05:35,062 - INFO - Aurora import successful
+2025-08-13 15:05:35,309 - INFO - CUDA available: NVIDIA A100-SXM4-80GB
+2025-08-13 15:05:35,309 - INFO - Environment setup test PASSED
+2025-08-13 15:05:35,309 - INFO - 
+==================================================
+2025-08-13 15:05:35,309 - INFO - Running test: Configuration Files
+2025-08-13 15:05:35,309 - INFO - ==================================================
+2025-08-13 15:05:35,309 - INFO - Testing configuration files...
+2025-08-13 15:05:35,310 - INFO - Configuration files test PASSED
+2025-08-13 15:05:35,310 - INFO - 
+==================================================
+2025-08-13 15:05:35,310 - INFO - Running test: ECMWF Credentials
+2025-08-13 15:05:35,310 - INFO - ==================================================
+2025-08-13 15:05:35,310 - INFO - Testing ECMWF credentials...
+2025-08-13 15:05:35,941 - INFO - [2024-09-26T00:00:00] Watch our [Forum](https://forum.ecmwf.int/) for Announcements, news and other discussed topics.
+2025-08-13 15:05:35,941 - INFO - ECMWF CDS API client initialized successfully
+2025-08-13 15:05:35,941 - INFO - 
+==================================================
+2025-08-13 15:05:35,941 - INFO - Running test: Aurora Model Loading
+2025-08-13 15:05:35,941 - INFO - ==================================================
+2025-08-13 15:05:35,941 - INFO - Testing Aurora model loading...
+2025-08-13 15:05:36,007 - INFO - Loading Aurora model (this may take a while)...
+2025-08-13 15:05:52,751 - INFO - Aurora model test PASSED - prediction shape: torch.Size([1, 1, 16, 32])
+2025-08-13 15:05:52,778 - INFO - 
+==================================================
+2025-08-13 15:05:52,778 - INFO - Running test: Data Converter
+2025-08-13 15:05:52,778 - INFO - ==================================================
+2025-08-13 15:05:52,778 - INFO - Testing data converter...
+2025-08-13 15:05:57,413 - INFO - Data converter script found - basic structure test PASSED
+2025-08-13 15:05:57,413 - INFO - 
+==================================================
+2025-08-13 15:05:57,413 - INFO - Running test: Forecaster Script
+2025-08-13 15:05:57,413 - INFO - ==================================================
+2025-08-13 15:05:57,413 - INFO - Testing forecaster script...
+2025-08-13 15:06:04,569 - INFO - Forecaster script basic test PASSED
+2025-08-13 15:06:04,570 - INFO - 
+==================================================
+2025-08-13 15:06:04,570 - INFO - Running test: SLURM Availability
+2025-08-13 15:06:04,570 - INFO - ==================================================
+2025-08-13 15:06:04,570 - INFO - Testing SLURM availability...
+2025-08-13 15:06:04,588 - INFO - SLURM available: slurm 24.11.3
+2025-08-13 15:06:04,588 - INFO - 
+==================================================
+2025-08-13 15:06:04,588 - INFO - Running test: Regional Processor
+2025-08-13 15:06:04,588 - INFO - ==================================================
+2025-08-13 15:06:04,588 - INFO - Testing regional processor...
+2025-08-13 15:06:04,588 - INFO - Regional processor found with 5 regions configured
+2025-08-13 15:06:04,589 - INFO - 
+============================================================
+2025-08-13 15:06:04,589 - INFO - VALIDATION SUMMARY
+2025-08-13 15:06:04,589 - INFO - ============================================================
+2025-08-13 15:06:04,589 - INFO - Total Tests: 8
+2025-08-13 15:06:04,589 - INFO - Passed: 8
+2025-08-13 15:06:04,589 - INFO - Failed: 0
+2025-08-13 15:06:04,589 - INFO - Success Rate: 100.0%
+2025-08-13 15:06:04,589 - INFO - Duration: 54.6 seconds
+2025-08-13 15:06:04,593 - INFO - Detailed results saved to: /home/qhuang62/aurora/aurora-mers-forecasting/logs/validation_results.yaml

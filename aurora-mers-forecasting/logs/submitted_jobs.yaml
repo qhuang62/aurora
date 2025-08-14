@@ -1,0 +1,6 @@
+'31173363':
+  job_id: '31173363'
+  job_mode: test
+  job_script: /tmp/aurora_job_d3khqc8n.slurm
+  status: SUBMITTED
+  submission_time: '2025-08-13T22:20:54.001819'

@@ -1,0 +1,179 @@
+# Aurora-ERA5 Forecasting System Configuration
+
+# ECMWF Data Configuration
+ecmwf:
+  cds_server: "https://cds.climate.copernicus.eu/api/v2"
+  # ERA5: ECMWF Reanalysis v5 - High quality reanalysis data
+  dataset: "reanalysis-era5-single-levels"
+  # Data refresh schedule (every 12 hours)
+  update_frequency: "0 */12 * * *"  # Cron format
+  data_retention_days: 30
+  
+  # Variables to download for Aurora forecasting
+  surface_variables:
+    - "2m_temperature"                # 2t
+    - "10m_u_component_of_wind"       # 10u  
+    - "10m_v_component_of_wind"       # 10v
+    - "mean_sea_level_pressure"       # msl
+    - "total_precipitation"           # tp (for integration)
+    - "2m_dewpoint_temperature"       # 2d (for humidity)
+    
+  atmospheric_variables:
+    - "temperature"                   # t
+    - "u_component_of_wind"           # u
+    - "v_component_of_wind"           # v
+    - "specific_humidity"             # q
+    - "geopotential"                  # z
+    
+  static_variables:
+    - "geopotential"                  # z (surface)
+    - "land_sea_mask"                 # lsm
+    - "soil_type"                     # slt
+    
+  # Pressure levels for atmospheric variables (hPa)
+  pressure_levels:
+    - 1000
+    - 925
+    - 850
+    - 700
+    - 600
+    - 500
+    - 400
+    - 300
+    - 250
+    - 200
+    - 150
+    - 100
+    - 70
+    - 50
+    - 30
+    - 20
+    - 10
+    
+  # Spatial resolution
+  grid: "0.25/0.25"  # 0.25 degree resolution
+  area: "90/-180/-90/179.75"  # Global: North/West/South/East
+  
+  # Output format
+  format: "netcdf"
+
+# Aurora Model Configuration
+aurora:
+  model_name: "AuroraSmallPretrained"
+  checkpoint: "microsoft/aurora"
+  checkpoint_file: "aurora-0.25-small-pretrained.ckpt"
+  device: "cuda"
+  precision: "float32"
+  patch_size: 2
+  
+  # Forecast configuration
+  forecast_steps: 56  # 14 days at 6-hour intervals (14*4=56)
+  rollout_batch_size: 1
+  memory_optimization: true
+  output_frequency: 4  # Every 24 hours (4 * 6hr steps)
+
+# Regional Domains Configuration
+regions:
+  global:
+    name: "Global"
+    bbox: [-90, -180, 90, 180]  # South, West, North, East
+    resolution: 0.25
+    
+  north_america:
+    name: "North America"
+    bbox: [15, -160, 75, -50]
+    resolution: 0.1
+    
+  conus:
+    name: "Continental US"
+    bbox: [20, -130, 55, -65]
+    resolution: 0.05
+    
+  southwest_us:
+    name: "Southwest US"
+    bbox: [30, -125, 45, -100]
+    resolution: 0.025
+    
+  arizona:
+    name: "Arizona"
+    bbox: [31, -115, 37, -109]
+    resolution: 0.01
+
+# Extreme Weather Detection
+extreme_weather:
+  heat_wave:
+    temperature_threshold_percentile: 95
+    duration_days: 3
+    spatial_coverage_threshold: 0.1
+    
+  precipitation:
+    heavy_precip_threshold_mm: 25  # mm/day
+    extreme_precip_threshold_mm: 50
+    
+  wind:
+    high_wind_threshold_ms: 20  # m/s
+    extreme_wind_threshold_ms: 35
+
+# System Paths (Sol Supercomputer)
+paths:
+  data_root: "/home/qhuang62/aurora/aurora-mers-forecasting/data"
+  raw_data: "/home/qhuang62/aurora/aurora-mers-forecasting/data/raw"
+  processed_data: "/home/qhuang62/aurora/aurora-mers-forecasting/data/processed"
+  static_data: "/home/qhuang62/aurora/aurora-mers-forecasting/data/static"
+  forecasts: "/home/qhuang62/aurora/aurora-mers-forecasting/output/forecasts"
+  visualizations: "/home/qhuang62/aurora/aurora-mers-forecasting/output/visualizations"
+  logs: "/home/qhuang62/aurora/aurora-mers-forecasting/logs"
+  
+# Computational Resources
+compute:
+  # SLURM configuration for Sol
+  partition: "general"
+  nodes: 1
+  ntasks_per_node: 1
+  cpus_per_task: 16
+  memory: "64GB"
+  gres: "gpu:a100:1"
+  time: "4:00:00"
+  
+  # Parallel processing
+  max_workers: 4
+  chunk_size: 7  # Days to process in parallel
+
+# Web Interface Configuration
+web:
+  host: "0.0.0.0"
+  port: 8080
+  debug: false
+  cors_origins:
+    - "https://weather.asu.edu"
+    - "https://aurora-forecast.asu.edu"
+  
+  # API configuration
+  api_version: "v1"
+  rate_limit: "100/hour"
+  
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  max_file_size: "100MB"
+  backup_count: 5
+  
+# Monitoring and Alerts
+monitoring:
+  enable_metrics: true
+  prometheus_port: 9090
+  alert_email: "weather-ops@asu.edu"
+  
+  # Performance thresholds
+  max_forecast_time_hours: 2
+  min_forecast_skill_score: 0.7
+  max_data_latency_hours: 6
+
+# Quality Control
+quality_control:
+  enable_validation: true
+  max_missing_data_percent: 5
+  temperature_range_k: [180, 330]  # Kelvin
+  pressure_range_pa: [50000, 110000]  # Pascal
+  wind_speed_max_ms: 100  # m/s

@@ -1,0 +1,31 @@
+duration_seconds: 54.60651516914368
+failed_tests: 0
+passed_tests: 8
+success_rate: 100.0
+test_results:
+  Aurora Model Loading:
+    status: PASSED
+    success: true
+  Configuration Files:
+    status: PASSED
+    success: true
+  Data Converter:
+    status: PASSED
+    success: true
+  ECMWF Credentials:
+    status: PASSED
+    success: true
+  Environment Setup:
+    status: PASSED
+    success: true
+  Forecaster Script:
+    status: PASSED
+    success: true
+  Regional Processor:
+    status: PASSED
+    success: true
+  SLURM Availability:
+    status: PASSED
+    success: true
+timestamp: '2025-08-13T22:06:04.589120'
+total_tests: 8

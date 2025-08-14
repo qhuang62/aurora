@@ -1,0 +1,508 @@
+Aurora-MERS Forecasting Job Starting at Wed Aug 13 15:22:23 MST 2025
+Job ID: 31173363
+Node: sg018
+GPU: 0
+Creating conda environment: aurora-forecasting
+Retrieving notices: - \ done
+Channels:
+ - conda-forge
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/qhuang62/.conda/envs/aurora-forecasting
+
+  added / updated specs:
+    - python=3.10
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    libgcc-15.1.0              |       h767d61c_4         805 KB  conda-forge
+    libgcc-ng-15.1.0           |       h69a702a_4          29 KB  conda-forge
+    libgomp-15.1.0             |       h767d61c_4         437 KB  conda-forge
+    libsqlite-3.50.4           |       h0c1763c_0         911 KB  conda-forge
+    pip-25.2                   |     pyh8b19718_0         1.1 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         3.3 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge 
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-2_gnu 
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-h4bc722e_7 
+  ca-certificates    conda-forge/noarch::ca-certificates-2025.8.3-hbd8a1cb_0 
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.44-h1423503_1 
+  libexpat           conda-forge/linux-64::libexpat-2.7.1-hecca717_0 
+  libffi             conda-forge/linux-64::libffi-3.4.6-h2dba641_1 
+  libgcc             conda-forge/linux-64::libgcc-15.1.0-h767d61c_4 
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-15.1.0-h69a702a_4 
+  libgomp            conda-forge/linux-64::libgomp-15.1.0-h767d61c_4 
+  liblzma            conda-forge/linux-64::liblzma-5.8.1-hb9d3cd8_2 
+  libnsl             conda-forge/linux-64::libnsl-2.0.1-hb9d3cd8_1 
+  libsqlite          conda-forge/linux-64::libsqlite-3.50.4-h0c1763c_0 
+  libuuid            conda-forge/linux-64::libuuid-2.38.1-h0b41bf4_0 
+  libxcrypt          conda-forge/linux-64::libxcrypt-4.4.36-hd590300_1 
+  libzlib            conda-forge/linux-64::libzlib-1.3.1-hb9d3cd8_2 
+  ncurses            conda-forge/linux-64::ncurses-6.5-h2d0b736_3 
+  openssl            conda-forge/linux-64::openssl-3.5.2-h26f9b46_0 
+  pip                conda-forge/noarch::pip-25.2-pyh8b19718_0 
+  python             conda-forge/linux-64::python-3.10.18-hd6af730_0_cpython 
+  readline           conda-forge/linux-64::readline-8.2-h8c095d6_2 
+  setuptools         conda-forge/noarch::setuptools-80.9.0-pyhff2d567_0 
+  tk                 conda-forge/linux-64::tk-8.6.13-noxft_hd72426e_102 
+  tzdata             conda-forge/noarch::tzdata-2025b-h78e105d_0 
+  wheel              conda-forge/noarch::wheel-0.45.1-pyhd8ed1ab_1 
+
+
+
+Downloading and Extracting Packages: ...working...pip-25.2             | 1.1 MB    |                                                                                                                        |   0% 
+libsqlite-3.50.4     | 911 KB    |                                                                                                                        |   0% [A
+
+libgcc-15.1.0        | 805 KB    |                                                                                                                        |   0% [A[A
+
+
+libgomp-15.1.0       | 437 KB    |                                                                                                                        |   0% [A[A[A
+
+
+
+libgcc-ng-15.1.0     | 29 KB     |                                                                                                                        |   0% [A[A[A[A
+libsqlite-3.50.4     | 911 KB    | ###################################################################################################################### | 100% [Apip-25.2             | 1.1 MB    | ###################################################################################################################### | 100% 
+
+
+libgomp-15.1.0       | 437 KB    | ###################################################################################################################### | 100% [A[A[A
+
+
+
+libgcc-ng-15.1.0     | 29 KB     | ###################################################################################################################### | 100% [A[A[A[A
+
+libgcc-15.1.0        | 805 KB    | ##3                                                                                                                    |   2% [A[A
+
+libgcc-15.1.0        | 805 KB    | ###################################################################################################################### | 100% [A[A
+libsqlite-3.50.4     | 911 KB    | ###################################################################################################################### | 100% [A
+libsqlite-3.50.4     | 911 KB    | ###################################################################################################################### | 100% [A
+
+
+libgomp-15.1.0       | 437 KB    | ###################################################################################################################### | 100% [A[A[A
+
+
+libgomp-15.1.0       | 437 KB    | ###################################################################################################################### | 100% [A[A[A
+
+
+
+libgcc-ng-15.1.0     | 29 KB     | ###################################################################################################################### | 100% [A[A[A[A
+
+
+
+libgcc-ng-15.1.0     | 29 KB     | ###################################################################################################################### | 100% [A[A[A[A
+
+libgcc-15.1.0        | 805 KB    | ###################################################################################################################### | 100% [A[A
+
+libgcc-15.1.0        | 805 KB    | ###################################################################################################################### | 100% [A[Apip-25.2             | 1.1 MB    | ###################################################################################################################### | 100% pip-25.2             | 1.1 MB    | ###################################################################################################################### | 100%                                                                                                                                                                  
+                                                                                                                                                                 [A
+
+                                                                                                                                                                 [A[A
+
+
+                                                                                                                                                                 [A[A[A
+
+
+
+                                                                                                                                                                 [A[A[A[A done
+Preparing transaction: / - \ | / done
+Verifying transaction: \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Executing transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+#
+# To activate this environment, use
+#
+#     $ conda activate aurora-forecasting
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Looking in indexes: https://download.pytorch.org/whl/cu118
+Collecting torch
+  Downloading https://download.pytorch.org/whl/cu118/torch-2.7.1%2Bcu118-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (28 kB)
+Collecting torchvision
+  Downloading https://download.pytorch.org/whl/cu118/torchvision-0.22.1%2Bcu118-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (6.1 kB)
+Collecting torchaudio
+  Downloading https://download.pytorch.org/whl/cu118/torchaudio-2.7.1%2Bcu118-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Collecting filelock (from torch)
+  Downloading https://download.pytorch.org/whl/filelock-3.13.1-py3-none-any.whl.metadata (2.8 kB)
+Collecting typing-extensions>=4.10.0 (from torch)
+  Downloading https://download.pytorch.org/whl/typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Collecting sympy>=1.13.3 (from torch)
+  Downloading https://download.pytorch.org/whl/sympy-1.13.3-py3-none-any.whl.metadata (12 kB)
+Collecting networkx (from torch)
+  Downloading https://download.pytorch.org/whl/networkx-3.3-py3-none-any.whl.metadata (5.1 kB)
+Collecting jinja2 (from torch)
+  Downloading https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting fsspec (from torch)
+  Downloading https://download.pytorch.org/whl/fsspec-2024.6.1-py3-none-any.whl.metadata (11 kB)
+Collecting nvidia-cuda-nvrtc-cu11==11.8.89 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cuda_nvrtc_cu11-11.8.89-py3-none-manylinux1_x86_64.whl (23.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.2/23.2 MB 143.7 MB/s  0:00:00
+Collecting nvidia-cuda-runtime-cu11==11.8.89 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cuda_runtime_cu11-11.8.89-py3-none-manylinux1_x86_64.whl (875 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 875.6/875.6 kB 26.5 MB/s  0:00:00
+Collecting nvidia-cuda-cupti-cu11==11.8.87 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cuda_cupti_cu11-11.8.87-py3-none-manylinux1_x86_64.whl (13.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.1/13.1 MB 119.5 MB/s  0:00:00
+Collecting nvidia-cudnn-cu11==9.1.0.70 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cudnn_cu11-9.1.0.70-py3-none-manylinux2014_x86_64.whl (663.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 663.9/663.9 MB 85.3 MB/s  0:00:04
+Collecting nvidia-cublas-cu11==11.11.3.6 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cublas_cu11-11.11.3.6-py3-none-manylinux1_x86_64.whl (417.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 417.9/417.9 MB 117.1 MB/s  0:00:02
+Collecting nvidia-cufft-cu11==10.9.0.58 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cufft_cu11-10.9.0.58-py3-none-manylinux1_x86_64.whl (168.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 168.4/168.4 MB 143.8 MB/s  0:00:01
+Collecting nvidia-curand-cu11==10.3.0.86 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_curand_cu11-10.3.0.86-py3-none-manylinux1_x86_64.whl (58.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.1/58.1 MB 97.5 MB/s  0:00:00
+Collecting nvidia-cusolver-cu11==11.4.1.48 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cusolver_cu11-11.4.1.48-py3-none-manylinux1_x86_64.whl (128.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.2/128.2 MB 119.0 MB/s  0:00:01
+Collecting nvidia-cusparse-cu11==11.7.5.86 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_cusparse_cu11-11.7.5.86-py3-none-manylinux1_x86_64.whl (204.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 204.1/204.1 MB 134.1 MB/s  0:00:01
+Collecting nvidia-nccl-cu11==2.21.5 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_nccl_cu11-2.21.5-py3-none-manylinux2014_x86_64.whl (147.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 147.8/147.8 MB 164.4 MB/s  0:00:00
+Collecting nvidia-nvtx-cu11==11.8.86 (from torch)
+  Downloading https://download.pytorch.org/whl/cu118/nvidia_nvtx_cu11-11.8.86-py3-none-manylinux1_x86_64.whl (99 kB)
+Collecting triton==3.3.1 (from torch)
+  Downloading https://download.pytorch.org/whl/triton-3.3.1-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (1.5 kB)
+Requirement already satisfied: setuptools>=40.8.0 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from triton==3.3.1->torch) (80.9.0)
+Collecting numpy (from torchvision)
+  Downloading https://download.pytorch.org/whl/numpy-2.1.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+Collecting pillow!=8.3.*,>=5.3.0 (from torchvision)
+  Downloading https://download.pytorch.org/whl/pillow-11.0.0-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch)
+  Downloading https://download.pytorch.org/whl/mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 14.7 MB/s  0:00:00
+Collecting MarkupSafe>=2.0 (from jinja2->torch)
+  Downloading https://download.pytorch.org/whl/MarkupSafe-2.1.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Downloading https://download.pytorch.org/whl/cu118/torch-2.7.1%2Bcu118-cp310-cp310-manylinux_2_28_x86_64.whl (905.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 905.3/905.3 MB 68.6 MB/s  0:00:05
+Downloading https://download.pytorch.org/whl/triton-3.3.1-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (155.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 155.6/155.6 MB 156.7 MB/s  0:00:00
+Downloading https://download.pytorch.org/whl/cu118/torchvision-0.22.1%2Bcu118-cp310-cp310-manylinux_2_28_x86_64.whl (6.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.7/6.7 MB 71.8 MB/s  0:00:00
+Downloading https://download.pytorch.org/whl/cu118/torchaudio-2.7.1%2Bcu118-cp310-cp310-manylinux_2_28_x86_64.whl (3.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 88.9 MB/s  0:00:00
+Downloading https://download.pytorch.org/whl/pillow-11.0.0-cp310-cp310-manylinux_2_28_x86_64.whl (4.4 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 98.5 MB/s  0:00:00
+Downloading https://download.pytorch.org/whl/sympy-1.13.3-py3-none-any.whl (6.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.2/6.2 MB 114.2 MB/s  0:00:00
+Downloading https://download.pytorch.org/whl/typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Downloading https://download.pytorch.org/whl/filelock-3.13.1-py3-none-any.whl (11 kB)
+Downloading https://download.pytorch.org/whl/fsspec-2024.6.1-py3-none-any.whl (177 kB)
+Downloading https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl (133 kB)
+Downloading https://download.pytorch.org/whl/networkx-3.3-py3-none-any.whl (1.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 55.6 MB/s  0:00:00
+Downloading https://download.pytorch.org/whl/numpy-2.1.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.3/16.3 MB 78.5 MB/s  0:00:00
+Installing collected packages: mpmath, typing-extensions, triton, sympy, pillow, nvidia-nvtx-cu11, nvidia-nccl-cu11, nvidia-cusparse-cu11, nvidia-curand-cu11, nvidia-cufft-cu11, nvidia-cuda-runtime-cu11, nvidia-cuda-nvrtc-cu11, nvidia-cuda-cupti-cu11, nvidia-cublas-cu11, numpy, networkx, MarkupSafe, fsspec, filelock, nvidia-cusolver-cu11, nvidia-cudnn-cu11, jinja2, torch, torchvision, torchaudio
+
+Successfully installed MarkupSafe-2.1.5 filelock-3.13.1 fsspec-2024.6.1 jinja2-3.1.4 mpmath-1.3.0 networkx-3.3 numpy-2.1.2 nvidia-cublas-cu11-11.11.3.6 nvidia-cuda-cupti-cu11-11.8.87 nvidia-cuda-nvrtc-cu11-11.8.89 nvidia-cuda-runtime-cu11-11.8.89 nvidia-cudnn-cu11-9.1.0.70 nvidia-cufft-cu11-10.9.0.58 nvidia-curand-cu11-10.3.0.86 nvidia-cusolver-cu11-11.4.1.48 nvidia-cusparse-cu11-11.7.5.86 nvidia-nccl-cu11-2.21.5 nvidia-nvtx-cu11-11.8.86 pillow-11.0.0 sympy-1.13.3 torch-2.7.1+cu118 torchaudio-2.7.1+cu118 torchvision-0.22.1+cu118 triton-3.3.1 typing-extensions-4.12.2
+Collecting microsoft-aurora
+  Downloading microsoft_aurora-1.7.0-py3-none-any.whl.metadata (11 kB)
+Collecting azure-storage-blob (from microsoft-aurora)
+  Using cached azure_storage_blob-12.26.0-py3-none-any.whl.metadata (26 kB)
+Collecting einops (from microsoft-aurora)
+  Using cached einops-0.8.1-py3-none-any.whl.metadata (13 kB)
+Collecting huggingface-hub (from microsoft-aurora)
+  Downloading huggingface_hub-0.34.4-py3-none-any.whl.metadata (14 kB)
+Collecting netcdf4 (from microsoft-aurora)
+  Downloading netCDF4-1.7.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.8 kB)
+Requirement already satisfied: numpy in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from microsoft-aurora) (2.1.2)
+Collecting pydantic (from microsoft-aurora)
+  Using cached pydantic-2.11.7-py3-none-any.whl.metadata (67 kB)
+Collecting scipy (from microsoft-aurora)
+  Downloading scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+Collecting timm (from microsoft-aurora)
+  Downloading timm-1.0.19-py3-none-any.whl.metadata (60 kB)
+Requirement already satisfied: torch in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from microsoft-aurora) (2.7.1+cu118)
+Collecting xarray (from microsoft-aurora)
+  Downloading xarray-2025.6.1-py3-none-any.whl.metadata (12 kB)
+Collecting azure-core>=1.30.0 (from azure-storage-blob->microsoft-aurora)
+  Using cached azure_core-1.35.0-py3-none-any.whl.metadata (44 kB)
+Collecting cryptography>=2.1.4 (from azure-storage-blob->microsoft-aurora)
+  Downloading cryptography-45.0.6-cp37-abi3-manylinux_2_28_x86_64.whl.metadata (5.7 kB)
+Requirement already satisfied: typing-extensions>=4.6.0 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from azure-storage-blob->microsoft-aurora) (4.12.2)
+Collecting isodate>=0.6.1 (from azure-storage-blob->microsoft-aurora)
+  Using cached isodate-0.7.2-py3-none-any.whl.metadata (11 kB)
+Collecting requests>=2.21.0 (from azure-core>=1.30.0->azure-storage-blob->microsoft-aurora)
+  Downloading requests-2.32.4-py3-none-any.whl.metadata (4.9 kB)
+Collecting six>=1.11.0 (from azure-core>=1.30.0->azure-storage-blob->microsoft-aurora)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting cffi>=1.14 (from cryptography>=2.1.4->azure-storage-blob->microsoft-aurora)
+  Downloading cffi-1.17.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (1.5 kB)
+Collecting pycparser (from cffi>=1.14->cryptography>=2.1.4->azure-storage-blob->microsoft-aurora)
+  Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Collecting charset_normalizer<4,>=2 (from requests>=2.21.0->azure-core>=1.30.0->azure-storage-blob->microsoft-aurora)
+  Downloading charset_normalizer-3.4.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (36 kB)
+Collecting idna<4,>=2.5 (from requests>=2.21.0->azure-core>=1.30.0->azure-storage-blob->microsoft-aurora)
+  Downloading idna-3.10-py3-none-any.whl.metadata (10 kB)
+Collecting urllib3<3,>=1.21.1 (from requests>=2.21.0->azure-core>=1.30.0->azure-storage-blob->microsoft-aurora)
+  Downloading urllib3-2.5.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests>=2.21.0->azure-core>=1.30.0->azure-storage-blob->microsoft-aurora)
+  Downloading certifi-2025.8.3-py3-none-any.whl.metadata (2.4 kB)
+Requirement already satisfied: filelock in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from huggingface-hub->microsoft-aurora) (3.13.1)
+Requirement already satisfied: fsspec>=2023.5.0 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from huggingface-hub->microsoft-aurora) (2024.6.1)
+Collecting packaging>=20.9 (from huggingface-hub->microsoft-aurora)
+  Using cached packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting pyyaml>=5.1 (from huggingface-hub->microsoft-aurora)
+  Downloading PyYAML-6.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.1 kB)
+Collecting tqdm>=4.42.1 (from huggingface-hub->microsoft-aurora)
+  Downloading tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+Collecting hf-xet<2.0.0,>=1.1.3 (from huggingface-hub->microsoft-aurora)
+  Downloading hf_xet-1.1.7-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (703 bytes)
+Collecting cftime (from netcdf4->microsoft-aurora)
+  Downloading cftime-1.6.4.post1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (8.7 kB)
+Collecting annotated-types>=0.6.0 (from pydantic->microsoft-aurora)
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting pydantic-core==2.33.2 (from pydantic->microsoft-aurora)
+  Downloading pydantic_core-2.33.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Collecting typing-inspection>=0.4.0 (from pydantic->microsoft-aurora)
+  Using cached typing_inspection-0.4.1-py3-none-any.whl.metadata (2.6 kB)
+Requirement already satisfied: torchvision in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from timm->microsoft-aurora) (0.22.1+cu118)
+Collecting safetensors (from timm->microsoft-aurora)
+  Downloading safetensors-0.6.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+Requirement already satisfied: sympy>=1.13.3 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (1.13.3)
+Requirement already satisfied: networkx in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (3.3)
+Requirement already satisfied: jinja2 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (3.1.4)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu11==11.8.89 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (11.8.89)
+Requirement already satisfied: nvidia-cuda-runtime-cu11==11.8.89 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (11.8.89)
+Requirement already satisfied: nvidia-cuda-cupti-cu11==11.8.87 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (11.8.87)
+Requirement already satisfied: nvidia-cudnn-cu11==9.1.0.70 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (9.1.0.70)
+Requirement already satisfied: nvidia-cublas-cu11==11.11.3.6 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (11.11.3.6)
+Requirement already satisfied: nvidia-cufft-cu11==10.9.0.58 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (10.9.0.58)
+Requirement already satisfied: nvidia-curand-cu11==10.3.0.86 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (10.3.0.86)
+Requirement already satisfied: nvidia-cusolver-cu11==11.4.1.48 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (11.4.1.48)
+Requirement already satisfied: nvidia-cusparse-cu11==11.7.5.86 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (11.7.5.86)
+Requirement already satisfied: nvidia-nccl-cu11==2.21.5 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (2.21.5)
+Requirement already satisfied: nvidia-nvtx-cu11==11.8.86 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (11.8.86)
+Requirement already satisfied: triton==3.3.1 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torch->microsoft-aurora) (3.3.1)
+Requirement already satisfied: setuptools>=40.8.0 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from triton==3.3.1->torch->microsoft-aurora) (80.9.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from sympy>=1.13.3->torch->microsoft-aurora) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from jinja2->torch->microsoft-aurora) (2.1.5)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from torchvision->timm->microsoft-aurora) (11.0.0)
+Collecting pandas>=2.1 (from xarray->microsoft-aurora)
+  Downloading pandas-2.3.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (91 kB)
+Collecting python-dateutil>=2.8.2 (from pandas>=2.1->xarray->microsoft-aurora)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas>=2.1->xarray->microsoft-aurora)
+  Downloading pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas>=2.1->xarray->microsoft-aurora)
+  Using cached tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Downloading microsoft_aurora-1.7.0-py3-none-any.whl (215 kB)
+Using cached azure_storage_blob-12.26.0-py3-none-any.whl (412 kB)
+Using cached azure_core-1.35.0-py3-none-any.whl (210 kB)
+Downloading cryptography-45.0.6-cp37-abi3-manylinux_2_28_x86_64.whl (4.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 85.7 MB/s  0:00:00
+Downloading cffi-1.17.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (446 kB)
+Using cached isodate-0.7.2-py3-none-any.whl (22 kB)
+Downloading requests-2.32.4-py3-none-any.whl (64 kB)
+Downloading charset_normalizer-3.4.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (152 kB)
+Downloading idna-3.10-py3-none-any.whl (70 kB)
+Downloading urllib3-2.5.0-py3-none-any.whl (129 kB)
+Downloading certifi-2025.8.3-py3-none-any.whl (161 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Using cached einops-0.8.1-py3-none-any.whl (64 kB)
+Downloading huggingface_hub-0.34.4-py3-none-any.whl (561 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 561.5/561.5 kB 14.7 MB/s  0:00:00
+Downloading hf_xet-1.1.7-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.2/3.2 MB 77.0 MB/s  0:00:00
+Using cached packaging-25.0-py3-none-any.whl (66 kB)
+Downloading PyYAML-6.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (751 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 751.2/751.2 kB 17.4 MB/s  0:00:00
+Downloading tqdm-4.67.1-py3-none-any.whl (78 kB)
+Downloading netCDF4-1.7.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (9.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.1/9.1 MB 95.3 MB/s  0:00:00
+Downloading cftime-1.6.4.post1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 45.6 MB/s  0:00:00
+Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+Using cached pydantic-2.11.7-py3-none-any.whl (444 kB)
+Downloading pydantic_core-2.33.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 67.9 MB/s  0:00:00
+Using cached annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Using cached typing_inspection-0.4.1-py3-none-any.whl (14 kB)
+Downloading scipy-1.15.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (37.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.7/37.7 MB 132.2 MB/s  0:00:00
+Downloading timm-1.0.19-py3-none-any.whl (2.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.5/2.5 MB 69.6 MB/s  0:00:00
+Downloading safetensors-0.6.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (485 kB)
+Downloading xarray-2025.6.1-py3-none-any.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 37.9 MB/s  0:00:00
+Downloading pandas-2.3.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 79.9 MB/s  0:00:00
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Using cached tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Installing collected packages: pytz, urllib3, tzdata, typing-inspection, tqdm, six, scipy, safetensors, pyyaml, pydantic-core, pycparser, packaging, isodate, idna, hf-xet, einops, charset_normalizer, cftime, certifi, annotated-types, requests, python-dateutil, pydantic, netcdf4, cffi, pandas, huggingface-hub, cryptography, azure-core, xarray, timm, azure-storage-blob, microsoft-aurora
+
+Successfully installed annotated-types-0.7.0 azure-core-1.35.0 azure-storage-blob-12.26.0 certifi-2025.8.3 cffi-1.17.1 cftime-1.6.4.post1 charset_normalizer-3.4.3 cryptography-45.0.6 einops-0.8.1 hf-xet-1.1.7 huggingface-hub-0.34.4 idna-3.10 isodate-0.7.2 microsoft-aurora-1.7.0 netcdf4-1.7.2 packaging-25.0 pandas-2.3.1 pycparser-2.22 pydantic-2.11.7 pydantic-core-2.33.2 python-dateutil-2.9.0.post0 pytz-2025.2 pyyaml-6.0.2 requests-2.32.4 safetensors-0.6.2 scipy-1.15.3 six-1.17.0 timm-1.0.19 tqdm-4.67.1 typing-inspection-0.4.1 tzdata-2025.2 urllib3-2.5.0 xarray-2025.6.1
+Requirement already satisfied: xarray in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (2025.6.1)
+Requirement already satisfied: netcdf4 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (1.7.2)
+Requirement already satisfied: pyyaml in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (6.0.2)
+Collecting schedule
+  Downloading schedule-1.2.2-py3-none-any.whl.metadata (3.8 kB)
+Collecting psutil
+  Downloading psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (22 kB)
+Requirement already satisfied: numpy>=1.24 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from xarray) (2.1.2)
+Requirement already satisfied: packaging>=23.2 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from xarray) (25.0)
+Requirement already satisfied: pandas>=2.1 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from xarray) (2.3.1)
+Requirement already satisfied: cftime in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from netcdf4) (1.6.4.post1)
+Requirement already satisfied: certifi in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from netcdf4) (2025.8.3)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from pandas>=2.1->xarray) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from pandas>=2.1->xarray) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from pandas>=2.1->xarray) (2025.2)
+Requirement already satisfied: six>=1.5 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from python-dateutil>=2.8.2->pandas>=2.1->xarray) (1.17.0)
+Downloading schedule-1.2.2-py3-none-any.whl (12 kB)
+Downloading psutil-7.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (277 kB)
+Installing collected packages: schedule, psutil
+
+Successfully installed psutil-7.0.0 schedule-1.2.2
+Collecting cdsapi
+  Using cached cdsapi-0.7.6-py2.py3-none-any.whl.metadata (3.0 kB)
+Collecting eccodes
+  Downloading eccodes-2.43.0-py3-none-any.whl.metadata (15 kB)
+Collecting cfgrib
+  Downloading cfgrib-0.9.15.0-py3-none-any.whl.metadata (55 kB)
+Collecting ecmwf-datastores-client (from cdsapi)
+  Downloading ecmwf_datastores_client-0.4.0-py3-none-any.whl.metadata (21 kB)
+Requirement already satisfied: requests>=2.5.0 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from cdsapi) (2.32.4)
+Requirement already satisfied: tqdm in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from cdsapi) (4.67.1)
+Requirement already satisfied: numpy in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from eccodes) (2.1.2)
+Collecting attrs (from eccodes)
+  Downloading attrs-25.3.0-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: cffi in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from eccodes) (1.17.1)
+Collecting findlibs (from eccodes)
+  Downloading findlibs-0.1.2-py3-none-any.whl.metadata (4.5 kB)
+Collecting eccodeslib (from eccodes)
+  Downloading eccodeslib-2.43.0-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (4.2 kB)
+Collecting click (from cfgrib)
+  Using cached click-8.2.1-py3-none-any.whl.metadata (2.5 kB)
+Requirement already satisfied: charset_normalizer<4,>=2 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from requests>=2.5.0->cdsapi) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from requests>=2.5.0->cdsapi) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from requests>=2.5.0->cdsapi) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from requests>=2.5.0->cdsapi) (2025.8.3)
+Requirement already satisfied: pycparser in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from cffi->eccodes) (2.22)
+Collecting eckitlib<2,>=1.31.3 (from eccodeslib->eccodes)
+  Downloading eckitlib-1.31.4-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+Collecting fckitlib<1,>=0.14.0 (from eccodeslib->eccodes)
+  Downloading fckitlib-0.14.0-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (3.1 kB)
+Collecting multiurl>=0.3.7 (from ecmwf-datastores-client->cdsapi)
+  Downloading multiurl-0.3.7-py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: typing-extensions in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from ecmwf-datastores-client->cdsapi) (4.12.2)
+Requirement already satisfied: pytz in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from multiurl>=0.3.7->ecmwf-datastores-client->cdsapi) (2025.2)
+Requirement already satisfied: python-dateutil in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from multiurl>=0.3.7->ecmwf-datastores-client->cdsapi) (2.9.0.post0)
+Requirement already satisfied: six>=1.5 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from python-dateutil->multiurl>=0.3.7->ecmwf-datastores-client->cdsapi) (1.17.0)
+Using cached cdsapi-0.7.6-py2.py3-none-any.whl (12 kB)
+Downloading eccodes-2.43.0-py3-none-any.whl (44 kB)
+Downloading cfgrib-0.9.15.0-py3-none-any.whl (48 kB)
+Downloading attrs-25.3.0-py3-none-any.whl (63 kB)
+Using cached click-8.2.1-py3-none-any.whl (102 kB)
+Downloading eccodeslib-2.43.0-cp310-cp310-manylinux_2_28_x86_64.whl (20.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.5/20.5 MB 12.6 MB/s  0:00:01
+Downloading eckitlib-1.31.4-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (45.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.2/45.2 MB 13.2 MB/s  0:00:03
+Downloading fckitlib-0.14.0-cp310-cp310-manylinux_2_28_x86_64.whl (13.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.3/13.3 MB 15.0 MB/s  0:00:00
+Downloading ecmwf_datastores_client-0.4.0-py3-none-any.whl (29 kB)
+Downloading multiurl-0.3.7-py3-none-any.whl (21 kB)
+Downloading findlibs-0.1.2-py3-none-any.whl (10 kB)
+Installing collected packages: findlibs, eckitlib, fckitlib, click, attrs, multiurl, eccodeslib, ecmwf-datastores-client, eccodes, cfgrib, cdsapi
+
+Successfully installed attrs-25.3.0 cdsapi-0.7.6 cfgrib-0.9.15.0 click-8.2.1 eccodes-2.43.0 eccodeslib-2.43.0 eckitlib-1.31.4 ecmwf-datastores-client-0.4.0 fckitlib-0.14.0 findlibs-0.1.2 multiurl-0.3.7
+Requirement already satisfied: numpy in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (2.1.2)
+Requirement already satisfied: scipy in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (1.15.3)
+Requirement already satisfied: pandas in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (2.3.1)
+Collecting matplotlib
+  Downloading matplotlib-3.10.5-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (11 kB)
+Collecting cartopy
+  Downloading cartopy-0.25.0-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (6.1 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from pandas) (2025.2)
+Requirement already satisfied: tzdata>=2022.7 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from pandas) (2025.2)
+Collecting contourpy>=1.0.1 (from matplotlib)
+  Downloading contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib)
+  Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.22.0 (from matplotlib)
+  Downloading fonttools-4.59.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (107 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib)
+  Downloading kiwisolver-1.4.9-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (6.3 kB)
+Requirement already satisfied: packaging>=20.0 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from matplotlib) (25.0)
+Requirement already satisfied: pillow>=8 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from matplotlib) (11.0.0)
+Collecting pyparsing>=2.3.1 (from matplotlib)
+  Downloading pyparsing-3.2.3-py3-none-any.whl.metadata (5.0 kB)
+Collecting shapely>=2.0 (from cartopy)
+  Downloading shapely-2.1.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.7 kB)
+Collecting pyshp>=2.3 (from cartopy)
+  Using cached pyshp-2.3.1-py2.py3-none-any.whl.metadata (55 kB)
+Collecting pyproj>=3.3.1 (from cartopy)
+  Downloading pyproj-3.7.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (31 kB)
+Requirement already satisfied: certifi in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from pyproj>=3.3.1->cartopy) (2025.8.3)
+Requirement already satisfied: six>=1.5 in /home/qhuang62/.conda/envs/aurora-forecasting/lib/python3.10/site-packages (from python-dateutil>=2.8.2->pandas) (1.17.0)
+Downloading matplotlib-3.10.5-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (8.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.7/8.7 MB 80.0 MB/s  0:00:00
+Downloading cartopy-0.25.0-cp310-cp310-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (11.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.8/11.8 MB 13.7 MB/s  0:00:00
+Downloading contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (325 kB)
+Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.59.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 105.1 MB/s  0:00:00
+Downloading kiwisolver-1.4.9-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 51.4 MB/s  0:00:00
+Downloading pyparsing-3.2.3-py3-none-any.whl (111 kB)
+Downloading pyproj-3.7.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (9.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 93.4 MB/s  0:00:00
+Using cached pyshp-2.3.1-py2.py3-none-any.whl (46 kB)
+Downloading shapely-2.1.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 87.6 MB/s  0:00:00
+Installing collected packages: shapely, pyshp, pyproj, pyparsing, kiwisolver, fonttools, cycler, contourpy, matplotlib, cartopy
+
+Successfully installed cartopy-0.25.0 contourpy-1.3.2 cycler-0.12.1 fonttools-4.59.0 kiwisolver-1.4.9 matplotlib-3.10.5 pyparsing-3.2.3 pyproj-3.7.1 pyshp-2.3.1 shapely-2.1.1
+Checking GPU availability...
+Wed Aug 13 15:27:33 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 565.57.01              Driver Version: 565.57.01      CUDA Version: 12.7     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          On  |   00000000:81:00.0 Off |                    0 |
+| N/A   32C    P0             63W /  500W |       1MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI        PID   Type   Process name                              GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Python version: Python 3.10.18
+PyTorch version: 2.7.1+cu118
+CUDA available: True
+Job mode: test
+Running test forecast...
+Forecast generation completed successfully
+Cleaning up temporary files...
+Job Summary:
+  Start time: 1755123738
+  End time: Wed Aug 13 15:27:51 MST 2025
+  Duration: 328 seconds
+  Peak memory usage:            
+  GPU utilization: 0
+Aurora-MERS Forecasting Job Completed Successfully at Wed Aug 13 15:27:51 MST 2025

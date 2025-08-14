@@ -1,0 +1,38 @@
+2025-08-13 15:09:11,074 - __main__ - INFO - Configured 5 regional domains
+2025-08-13 15:09:11,075 - __main__ - INFO - Using latest forecast: /home/qhuang62/aurora/aurora-mers-forecasting/output/forecasts/complete_forecast_20240115_1200.nc
+2025-08-13 15:09:11,075 - __main__ - INFO - Processing region: arizona
+2025-08-13 15:09:11,075 - __main__ - INFO - Loading forecast data from /home/qhuang62/aurora/aurora-mers-forecasting/output/forecasts/complete_forecast_20240115_1200.nc
+2025-08-13 15:09:11,561 - __main__ - INFO - Loaded forecast with 3 time steps
+2025-08-13 15:09:11,561 - __main__ - INFO - Variables: ['2t', '10u', '10v', 'msl']
+2025-08-13 15:09:13,546 - __main__ - INFO - Spatial extent: -89.00° to 90.00°N, 0.00° to 359.00°E
+2025-08-13 15:09:13,552 - __main__ - INFO - Extracted arizona domain: 7 x 0 grid points
+2025-08-13 15:09:13,552 - __main__ - INFO - Interpolating to 0.01° resolution
+2025-08-13 15:09:13,552 - __main__ - ERROR - Failed to interpolate to high resolution: zero-size array to reduction operation minimum which has no identity
+2025-08-13 15:09:13,552 - __main__ - ERROR - Failed to process region arizona: zero-size array to reduction operation minimum which has no identity
+2025-08-13 15:09:23,797 - __main__ - INFO - Configured 5 regional domains
+2025-08-13 15:09:23,798 - __main__ - INFO - Using latest forecast: /home/qhuang62/aurora/aurora-mers-forecasting/output/forecasts/complete_forecast_20240115_1200.nc
+2025-08-13 15:09:23,798 - __main__ - INFO - Processing region: conus
+2025-08-13 15:09:23,798 - __main__ - INFO - Loading forecast data from /home/qhuang62/aurora/aurora-mers-forecasting/output/forecasts/complete_forecast_20240115_1200.nc
+2025-08-13 15:09:24,279 - __main__ - INFO - Loaded forecast with 3 time steps
+2025-08-13 15:09:24,279 - __main__ - INFO - Variables: ['2t', '10u', '10v', 'msl']
+2025-08-13 15:09:25,239 - __main__ - INFO - Spatial extent: -89.00° to 90.00°N, 0.00° to 359.00°E
+2025-08-13 15:09:25,241 - __main__ - INFO - Extracted conus domain: 36 x 0 grid points
+2025-08-13 15:09:25,241 - __main__ - INFO - Interpolating to 0.05° resolution
+2025-08-13 15:09:25,241 - __main__ - ERROR - Failed to interpolate to high resolution: zero-size array to reduction operation minimum which has no identity
+2025-08-13 15:09:25,241 - __main__ - ERROR - Failed to process region conus: zero-size array to reduction operation minimum which has no identity
+2025-08-13 15:09:56,246 - __main__ - INFO - Configured 5 regional domains
+2025-08-13 15:09:56,247 - __main__ - INFO - Using latest forecast: /home/qhuang62/aurora/aurora-mers-forecasting/output/forecasts/complete_forecast_20240115_1200.nc
+2025-08-13 15:09:56,247 - __main__ - INFO - Processing region: conus
+2025-08-13 15:09:56,247 - __main__ - INFO - Loading forecast data from /home/qhuang62/aurora/aurora-mers-forecasting/output/forecasts/complete_forecast_20240115_1200.nc
+2025-08-13 15:09:56,691 - __main__ - INFO - Loaded forecast with 3 time steps
+2025-08-13 15:09:56,692 - __main__ - INFO - Variables: ['2t', '10u', '10v', 'msl']
+2025-08-13 15:09:57,599 - __main__ - INFO - Spatial extent: -89.00° to 90.00°N, 0.00° to 359.00°E
+2025-08-13 15:09:57,600 - __main__ - INFO - Extracted conus domain: 36 x 66 grid points
+2025-08-13 15:09:57,600 - __main__ - INFO - Interpolating to 0.05° resolution
+2025-08-13 15:09:57,600 - __main__ - INFO - New grid: 701 x 1302 points
+2025-08-13 15:09:58,788 - __main__ - INFO - High-resolution interpolation completed
+2025-08-13 15:09:58,788 - __main__ - INFO - Computing derived variables
+2025-08-13 15:09:58,952 - __main__ - INFO - Computed 5 derived variables
+2025-08-13 15:09:58,952 - __main__ - INFO - Detecting extreme weather events for conus
+2025-08-13 15:10:10,895 - __main__ - INFO - Detected 0 extreme weather events
+2025-08-13 15:10:11,774 - __main__ - INFO - Regional processing completed for conus
