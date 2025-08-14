@@ -39,3 +39,8 @@ mlruns/
 aurora-mers-forecasting/output/
 aurora-mers-forecasting/data/raw/
 *.nc
+
+# large data & outputs
+*.nc
+aurora-mers-forecasting/output/
+aurora-mers-forecasting/data/raw/
